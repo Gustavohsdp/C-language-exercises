@@ -4,19 +4,16 @@
 
 #include <stdio.h>
 
-int main(int grade_student)
-{
+int main (int grade_student) {
   printf("Qual a nota do aluno: ");
-  
   scanf("%d", &grade_student);
-  if (grade_student >100 || grade_student < 0)
-  {
+
+  if (grade_student > 100 || grade_student < 0) {
     printf("NOTA INVÁLIDA");
     return 0;
-  }
-  if(grade_student >= 60) {
+  } else if (grade_student >= 60) {
     printf("APROVADO");
-  }else if(grade_student <= 60) {
+  } else {
     printf("REPROVADO");
   };
 };

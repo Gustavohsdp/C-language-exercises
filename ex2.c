@@ -4,10 +4,7 @@
 
 #include <stdio.h>
 
-int newsalary( int wage, int increase_percentage) {
-
-  int percentage, result;
-
+int newsalary( int wage, int increase_percentage, int percentage, int result) {
   percentage = wage * increase_percentage/100;
   result = wage + percentage;
 }
@@ -19,9 +16,10 @@ int main() {
   scanf("%d", &wage);
   printf("Informe qual o valor da porcentagem do aumento do funcionário: ");
   scanf("%d", &increase_percentage);
-  percentage = wage * increase_percentage/100;
+
+  percentage = wage * increase_percentage / 100;
   result = wage + percentage;
 
   printf("O valor do aumento do funcionário é : %d \n", percentage);
   printf("O novo salário do funcionário é: %d \n", result);
-}
+};
