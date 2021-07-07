@@ -10,7 +10,7 @@
 #include <stdio.h>
 
 int main() {
-  int pessoas, count, idade, altura, peso, peso_80 = 0, autura_180 = 0, media = 0,result, porcentagem, porcentagem1, soma_idade = 0, media_final;
+  int pessoas, count, idade, altura, peso, peso_80 = 0, autura_180 = 0, media = 0, porcentagem, porcentagem1, soma_idade = 0, media_final;
 
   printf("Informe o número de pessoas: ");
   scanf("%d", &pessoas);

@@ -27,4 +27,4 @@ int main() {
   } else if (media >= 0 && media < 5) {
     printf("A nota do aluno é E");
   }
-  }
+}
