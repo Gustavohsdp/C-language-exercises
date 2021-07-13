@@ -115,5 +115,10 @@ int main() {
       printf("\tO valor do carro em 60 parcelas é: %f\n", resultado9);
       break;
     }
+
+    default: {
+      printf("Você digitou a quantidade de parcelas invalidas");
+      break;
+    }
   }
 }
