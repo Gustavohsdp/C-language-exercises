@@ -1,9 +1,3 @@
-/* 
- * File:   main.c
- * Author: Gustavo Henrique
- *
- * Created on 27 de Maio de 2021, 17:10
- */
 // Importando bibliotecas para utilização
 #include <stdio.h>    //Biblioteca padrão do C
 #include <sys/stat.h> //Retorna informações do path
