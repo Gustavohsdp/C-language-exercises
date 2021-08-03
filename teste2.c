@@ -3,8 +3,15 @@
 #include <stdio.h>
 
 int main() {
-  int number1, number2, number3;
-  printf("Digite o primeiro número");
-  scanf("%d", &number1);
-  printf("Digite o se número");
+
+  char name[100];
+  // int number1, number2, number3;
+  // printf("Digite o primeiro número");
+  // scanf("%d", &number1);
+  // printf("Digite o se número");
+  for (int i = 0; i < 2; i++) {
+  printf("Informe o seu nome: ", name[i]);
+  scanf("%s", &name[i]);
+  printf("%s", name[i]);
+  }
 }
