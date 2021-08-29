@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 int NumeroDigitos(int numero) {
-
   static int contador = 0;
-
+  
   if(numero != 0) {
     contador++;
     NumeroDigitos(numero / 10);

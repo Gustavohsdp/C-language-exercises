@@ -1,8 +1,4 @@
-//Nota de trabalho de laboratorio peso 2
-//avaliação semestral peso 3
-// exame final peso 5
-//media 10
-
+#include <stdio.h>
 
 int main() {
   float grade_work, semester_evaluation, final_exam, media;
